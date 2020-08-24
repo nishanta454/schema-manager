@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "fields": [
+        {
+            "path": "requestPayload.messageData.opportunity.templateId",
+            "value": "requestPayloadData.data.opportunity.messageTemplateId",
+            "defVal": "XYZ"
+        }
+    ]
+}

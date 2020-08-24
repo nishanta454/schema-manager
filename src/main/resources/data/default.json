@@ -1,0 +1,234 @@
+{
+    "type": "object",
+    "fields": [
+        {
+            "path": "requestContext.appName",
+            "value": "requestMetaData.appName",
+            "defVal": " "
+        },
+        {
+            "path": "requestContext.lineOfBusiness",
+            "value": "requestMetaData.lineOfBusiness",
+            "defVal": " "
+        },
+        {
+            "path": "requestContext.conversationID",
+            "value": "requestMetaData.conversationID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.campaignId",
+            "value": "requestPayloadData.data.campaignID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.clientSet",
+            "value": "requestPayloadData.data.clientSet",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.clientId",
+            "value": "requestPayloadData.data.clientID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.channel",
+            "value": "requestPayloadData.data.commDeliveryChannel",
+            "defVal": "email"
+        },
+        {
+            "path": "requestPayload.messageData.language",
+            "value": "requestPayloadData.data.languageIndicator",
+            "defVal": "1"
+        },
+        {
+            "path": "requestPayload.messageData.cagm.carrier",
+            "value": "requestPayloadData.data.carrierID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.account",
+            "value": "requestPayloadData.data.accountID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.group",
+            "value": "requestPayloadData.data.groupID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.member",
+            "value": "requestPayloadData.data.externalID",
+            "defVal": "requestPayloadData.data.memberID"
+        },
+        {
+            "path": "requestPayload.additionalData.displayName",
+            "value": "requestPayloadData.data.opportunity.member.memberFirstName",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.emailAddress",
+            "value": "requestPayloadData.data.channelID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.memberID",
+            "value": "requestPayloadData.data.opportunity.member.memberID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.firstName",
+            "value": "requestPayloadData.data.opportunity.member.memberFirstName",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.lastName",
+            "value": "requestPayloadData.data.opportunity.member.memberLastName",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.memberFirstName",
+            "value": "requestPayloadData.data.opportunity.member.memberFirstName",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.planName",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.carrier",
+            "value": "requestPayloadData.data.opportunity.client.carrier",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.account",
+            "value": "requestPayloadData.data.opportunity.client.account",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.group",
+            "value": "requestPayloadData.data.opportunity.client.groupNbr",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.cagm.member",
+            "value": "requestPayloadData.data.opportunity.member.memberID",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.opportunityFlex12",
+            "value": "requestPayloadData.data.opportunity.opportunityPassThruFiller12",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.channel",
+            "value": "requestPayloadData.data.channelType",
+            "defVal": "Email"
+        },
+        {
+            "path": "requestPayload.messageData.opportunity.subtypeCode",
+            "value": "requestPayloadData.data.opportunity.opportunitySubTypeCd",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.messageData.opportunity.templateId",
+            "value": "requestPayloadData.data.opportunity.messageTemplateId",
+            "defVal": " "
+        },
+        {
+            "path": "requestPayload.additionalData.iterativeData",
+            "value": "requestPayloadData.data.opportunity.rxs",
+            "template": {
+                "type": "array",
+                "fields": [
+                    {
+                        "path": "drugName",
+                        "value": "targetDrug.drugLabelName",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "drugShortName",
+                        "value": "targetDrug.drugShortName",
+                        "defVal": " ",
+                        "operation": "firstChar"
+                    },
+                    {
+                        "path": "fillDate",
+                        "value": "fillDate",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "fillLocation",
+                        "value": "fillLocationCd",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "fillNbr",
+                        "value": "fillNbr",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "nextFillDate",
+                        "value": "nextFillDate",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyName",
+                        "value": "pharmacy.pharmacyName",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyAddrLine1",
+                        "value": "pharmacy.pharmacyAddrLine1",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyCity",
+                        "value": "pharmacy.pharmacyCity",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyStateCd",
+                        "value": "pharmacy.pharmacyStateCd",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyZipCd",
+                        "value": "pharmacy.pharmacyZipCd",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "pharmacyPhone",
+                        "value": "pharmacy.pharmacyPhone",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "prescriberFirstName",
+                        "value": "prescriber.prescriberFirstName",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "prescriberLastName",
+                        "value": "prescriber.prescriberLastName",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "rxNumber",
+                        "value": "rxNbr",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "rxWrtnDate",
+                        "value": "rxWrtnDate",
+                        "defVal": " "
+                    },
+                    {
+                        "path": "daySupply",
+                        "value": "daySupply",
+                        "defVal": " "
+                    }
+                ]
+            }
+        }
+    ]
+}

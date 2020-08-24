@@ -1,0 +1,59 @@
+{
+  "requestContext": {
+    "appName": "DEP",
+    "lineOfBusiness": "HEE",
+    "conversationID": "TestHEEEMAILQA000003"
+  },
+  "requestPayload": {
+    "messageData": {
+      "campaignId": "2593",
+      "clientSet": "",
+      "clientId": "22920",
+      "channel": "Email",
+      "language": "1",
+      "cagm": {
+        "carrier": "8555",
+        "account": "PIEDM",
+        "group": "OPTION 3",
+        "member": "904529866"
+      },
+      "opportunity": {
+        "subtypeCode": "OSCV25M",
+        "templateId": "51867A2"
+      }
+    },
+    "additionalData": {
+      "firstName": "GRBFS",
+      "lastName": "DOVVPTY",
+      "emailAddress": "ganesh.band@CVSHealth.com",
+      "memberFirstName": "GRBFS",
+      "opportunityFlex12": "Gopireddy",
+      "displayName": "GRBFS",
+      "planName": "",
+      "reqxid": "5jbROnB",
+      "iterativeData": [
+        {
+          "drugName": "ATORVASTATIN TAB 40MG",
+          "drugShortName": "A",
+          "fillDate": "02/14/2020",
+          "fillLocation": "CVS_MAIL",
+          "fillNbr": "0",
+          "nextFillDate": "05/14/2020",
+          "pharmacyName": "CAREMARK PRESCRIPTION SRVC WBP",
+          "pharmacyAddrLine1": "1 GREAT VALLEY BLVD",
+          "pharmacyCity": "WILKES BARRE",
+          "pharmacyStateCd": "PA",
+          "pharmacyZipCd": "18706",
+          "pharmacyPhone": "5708202700",
+          "prescriberFirstName": "YBHB",
+          "prescriberLastName": "GEEOPWRIRLZQRP",
+          "rxNumber": "***1146",
+          "rxWrtnDate": "12/05/2019",
+          "daySupply": "90"
+        }
+      ],
+      "memberID": "",
+      "unsubxid": "8PxRKXZ"
+    }
+  }
+}
